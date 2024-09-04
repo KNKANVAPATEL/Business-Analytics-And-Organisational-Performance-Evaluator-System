@@ -9,7 +9,8 @@ Project Components
 1. Data Collection
 Utilized advanced Selenium techniques to scrape raw data from naukri.com
 Collected approximately 90,000 job listings
-2. Data Cleaning and Processing
+
+3. Data Cleaning and Processing
 Several Python scripts were used to clean and process the raw data:
 
 cleaned_company_info.xlsx: Refined company information
@@ -19,6 +20,7 @@ company_size.ipynb: Script for processing company size information
 Salary_range_fix.ipynb: Script for standardizing salary range data
 SalaryFixed.ipynb: Further refinements to salary data
 unique_skills.xlsx: Extracted and processed unique skills from job listings
+
 3. Data Analysis and Visualization
 Created an interactive dashboard using Tableau (Dashboard.twbx)
 The dashboard provides a comprehensive Job Analysis Overview
@@ -30,6 +32,7 @@ Trend analysis for each work type
 Departments Analysis
 Visual representation of job distribution across departments
 Top departments: Engineering - Software & QA, Customer Success Service & Operations, Data Science & Analytics
+
 Job Location
 Geographical distribution of job postings (focused on India)
 Applicant Analysis
@@ -45,29 +48,35 @@ Research & Development: 412
 Compensation Analysis
 Salary ranges across various departments
 Highest paying departments: Legal & Regulatory, Teaching & Training
+
 Project Workflow
 Data Scraping: Used Selenium to extract data from naukri.com
 Data Cleaning: Processed raw data using Python scripts
 Data Analysis: Compiled and analyzed cleaned data
 Visualization: Created an interactive Tableau dashboard
+
 Team Contributions
 Wesley Sam Thomas: Data cleaning, Python scripting
 Gagan Deep: Dasboard creation, Python scripting
 Chetan: Dashboard creation
-Kanva: Data collection, Literature review
+K N Kanva Patel: Data collection,Dashboard creation Literature review
+
 Key Insights
 The majority of job postings (92.8%) are for office-based work
 Engineering and Software roles dominate the job market
 There's a growing trend in remote and hybrid work options
 Significant variations in compensation across different departments
+
 Future Scope
 Regular updates to keep the data current
 Expansion to include more job portals for a broader market view
 Implementation of predictive analytics for future job market trends
+
 Tools Used
 Python (Selenium, Pandas, Jupyter Notebook)
 Tableau
 Excel
+
 How to Use This Repository
 Data Files: Various Excel files contain cleaned and processed data
 Python Scripts: Jupyter notebooks detail the cleaning and analysis process
